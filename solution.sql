@@ -1,6 +1,6 @@
-create database un1versetDB
+create database un1versetDB;
 USE universetDB;
-create table dapartment ( DepartmentID numeric(5) primary key,
+create table dapartment ( DepartmentID INT(5) primary key,
   DepartmentNAME VARCHAR(20),
   HOD VARCHAR (20)not null 
 );
